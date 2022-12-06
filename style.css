@@ -4,13 +4,14 @@ body {
     background-repeat: no-repeat;
     overflow: hidden;
     background-size: cover;
+    background-position: center;
 }
 
 
 .container {
     width: 400px;
-    margin: 7% auto;
-    border-radius: 25px;
+    margin: 2% auto;
+    border-radius: 60px;
     background-color: rgba(0, 0, 0, 0.1);
     box-shadow: 0 0 20px #333;
 }
@@ -25,6 +26,7 @@ body {
     color: #333;
     font-size: 45px;
     margin-bottom: 70px;
+    
 }
 
 .main {
@@ -40,16 +42,33 @@ body {
     box-sizing: border-box;
     font-size: 15px;
     color:#333;
-    margin-bottom: 40px;
+    margin-bottom:30px;
+    border-radius: 15px;
+    background:rgb(211, 183, 148);
 
 }
 
+button {
+    width: 200px;
+    height: 40px;
+    border: none;
+    outline: none;
+    padding-left: 40px;
+    box-sizing: border-box;
+    font-size: 15px;
+    color:#333;
+    margin-bottom:30px;
+    border-radius: 15px;
+
+}
 .main button {
     padding-left: 0;
     background-color: rgb(183, 183, 202);
     letter-spacing: 1px;
     font-weight: bold;
     margin-bottom: 30px;
+    
+}
 
 .main button:hover, input:hover {
     box-shadow: 2px 2px 5px #555;
